@@ -31,20 +31,21 @@ class VehicleViewModelTest {
     @MockK
     private lateinit var vehicleRepository: VehicleRepository
 
+    private var savedStateHandle = SavedStateHandle().apply {
+        set("POSITION", 1)
+        set("CATEGORY", "Random")
+    }
+
+    /** We can use @InjectMockKs annotation but I felt an explicit declaration is easier to understand */
     private lateinit var viewModel: VehicleViewModel
 
-    private val engineList = listOf(1, 2, 3, 4, 5).map { it: Int ->
+    private val engineList = (1..6).map { it: Int ->
         VehicleData(
             id = it,
             engineData = EngineData(id = it, model = "V$it"),
             position = 0,
             category = "Random"
         )
-    }
-
-    private var savedStateHandle = SavedStateHandle().apply {
-        set("POSITION", 1)
-        set("CATEGORY", "Random")
     }
 
     @Before
