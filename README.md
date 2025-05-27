@@ -1,7 +1,5 @@
 # Mockk-Unit-Testing
-Mockk Unit Testing
-
-###### **A 10 minute guide to unit-testing**
+Mockk Unit Testing by Hithesh Vurjana
 
 This article is not meant to give you exhaustive knowledge of unit-testing. This is meant to be a quick recipe guide for common use cases especially ViewModel testing on Android. Its meant for instant cooking. For a detailed explanation, check the **References** section.
 
