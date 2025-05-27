@@ -10,8 +10,6 @@ With that said, lets dive into the world of unit testing.
 
 https://giphy.com/gifs/baby-sleepy-face-first-xT8qBvH1pAhtfSx52U
 
-Credit: <https://giphy.com/gifs/baby-sleepy-face-first-xT8qBvH1pAhtfSx52U>
-
 I know its not the coolest of android topics but here are some reasons why we write unit tests:
 
 -   Tests ensure that existing functionality remains intact when new changes are introduced.
